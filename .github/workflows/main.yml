@@ -40,6 +40,6 @@ jobs:
           LOCATION: ${{ secrets.LOCATION }}
           SENDKEY: ${{ secrets.SENDKEY }}
           PCR_TIME: 2022-04-04
-          ALWAYS_TODAY: false
+          ALWAYS_TODAY: true
           DISABLE_CLOCK_IN: false
         run: target/release/nju-clock-in
